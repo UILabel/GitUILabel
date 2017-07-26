@@ -26,6 +26,11 @@
     label2.text =@"shajk2";
     label2.textColor =[UIColor redColor];
     [self.view addSubview:label2];
+    
+    UILabel *label1 =[[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    label1.text =@"shajk1";
+    label1.textColor =[UIColor redColor];
+    [self.view addSubview:label1];
 }
 
 
